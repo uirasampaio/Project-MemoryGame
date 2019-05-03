@@ -9,8 +9,11 @@ Clone de GitHub repository and start to use, there are no dependencies required 
 # Usage
 
 -The memory game starts with a timer, every time the user click in two cards it will count as one move.
+
 -If the clicked cards match, they will stay flipped.
+
 -If the cards clicked don't match, the cards will unflip.
+
 -To win the game match all the cards available. The game can be reset at anytime by clicking in the reset button, when this happen
 the game will shuffle the cards and reset the moves and rank. The more moves you make to finish the game lowest will be your star rank in the end of the game.
 

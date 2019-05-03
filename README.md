@@ -24,6 +24,9 @@ Style to certain elements
   
 Stopwatch reference
   https://github.com/JamieMcGibbon/TechnicalCafe/tree/master/Misc%20Tutorials/Stopwatch%20Tutorial
+  
+Modal reference
+  https://www.w3schools.com/w3css/w3css_modal.asp
 
 
 # License

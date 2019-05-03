@@ -19,7 +19,8 @@ the game will shuffle the cards and reset the moves and rank. The more moves you
 
 # Resources used to create the game:
 Icons
-  https://www.flaticon.com/
+  Icon made from Freepik from https://www.flaticon.com/
+  Icon made from itim2101 from https://www.flaticon.com/
   https://fontawesome.com/v4.7.0/
   
 Style to certain elements

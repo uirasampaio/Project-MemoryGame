@@ -1,6 +1,6 @@
 # Project-MemoryGame
 
-Mememory game, its a simple matching game made for the browsers across multiple devices using HTML5, CSS and JavaScript The focus of the project is in the use of event listeners and other javascript functions to give the game its functionalitys.
+Simple matching game made for the browsers across multiple devices using HTML5, CSS and JavaScript the focus of the project is in the use of event listeners and other JavaScript functions to give the game its functionality.
 
 ## Installation
 
@@ -14,8 +14,9 @@ Clone the repo and open index.html
 
 - If the clicked cards don't match, the cards will unflip.
 
-- To win the game match all the cards available. The game can be reset at anytime by clicking in the reset button, when this happen
-the game will shuffle the cards and reset the moves and rank. The user start with three star rating but the rating drops the more moves it take to complete the game.
+- To win the game match all the cards available. The user start with three star rating but the rating drops the more moves it take to complete the game.
+
+- Reset the game at any time by clicking in the reset icon next to the move counter, it will shuffle the cards and reset the score.
 
 ## Resources used to create the game:
 

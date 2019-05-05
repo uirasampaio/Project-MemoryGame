@@ -18,9 +18,8 @@ Clone the repo and open index.html
 the game will shuffle the cards and reset the moves and rank. The user start with three star rating but the rating drops the more moves it take to complete the game.
 
 # Resources used to create the game:
-- Icons
-  Some Icons are made from Freepik from https://www.flaticon.com/
-  Cards and game icons from https://fontawesome.com/v4.7.0/
+
+- Some Icons are made from Freepik from https://www.flaticon.com/. Cards and game icons from https://fontawesome.com/v4.7.0/
   
 - Style to certain elements
   https://www.cssmatic.com/

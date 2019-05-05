@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matching Game</title>
+    <meta name="description" content="Memory Game">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Matching Game</h1>
+      </header>
+      <!-- star rank and move counter -->
+      <div id="scoreboard">
+        <div class="move-counter">
+          <ul class="stars">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+          </ul>
+          <span id="moveCounter" class="moves">0 Moves</span>
+        </div>
+      <!-- restart button -->
+        <div class="restart">
+          <i id="replay" class="fa fa-repeat"></i>
+        </div>
+      <!-- timer -->
+        <div class="timer-container">
+          <div class="display">Timer 00:00</div>
+        </div>
+      </div>
+      <!-- alert modal-->
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <div class="trophy-box">
+            <img id="trophy" src="img/trophy.svg" alt="Game win trophy">
+          </div>
+          <div id="final-display">
+            <h3 id="modal-text">Congratulations! You finished the game in 6 moves!</h3>
+      <!-- end game display table -->
+            <div id="contentTable">
+              <table class="blueTable">
+                <tr>
+                  <td>Rank</td>
+                  <td id="ranker">
+                  </td>
+                </tr>
+                <tr>
+                  <td>Time</td>
+                  <td id="final-timer">00:00</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <!-- restart and cancel button -->
+          <div class="buttons-box">
+            <div class="cancel"><button id="cancel-button" class="buttons">Cancel</button></div>
+            <div class="replayed"><button id="game-button" class="buttons">Restart</button></div>
+          </div>
+        </div>
+      </div>
+      <!-- Game starter box -->
+      <div id="easy" class="initial-box">
+        <div class="box1">
+          <p id="box-display" class="text">Welcome!<br>Test your memory to finish this game!</p>
+          <div id="memorybox">
+            <img id="memory" src="img/memory.svg" alt="Memory icons">
+          </div>
+          <div class="box2">
+            <button id="playButton">Let's Play!</button>
+          </div>
+        </div>
+      </div>
+      <!-- Game Deck -->
+      <ul id="board" class="deck">
+        <li class="card" data-framework="diamond">
+          <i class="fa fa-diamond"></i>
+        </li>
+        <li class="card" data-framework="plane">
+          <i class="fa fa-paper-plane-o"></i>
+        </li>
+        <li class="card" data-framework="anchor">
+          <i class="fa fa-anchor"></i>
+        </li>
+        <li class="card" data-framework="bolt">
+          <i class="fa fa-bolt"></i>
+        </li>
+        <li class="card" data-framework="cube">
+          <i class="fa fa-cube"></i>
+        </li>
+        <li class="card" data-framework="anchor">
+          <i class="fa fa-anchor"></i>
+        </li>
+        <li class="card" data-framework="leaf">
+          <i class="fa fa-leaf"></i>
+        </li>
+        <li class="card" data-framework="bicycle">
+          <i class="fa fa-bicycle"></i>
+        </li>
+        <li class="card" data-framework="diamond">
+          <i class="fa fa-diamond"></i>
+        </li>
+        <li class="card" data-framework="bomb">
+          <i class="fa fa-bomb"></i>
+        </li>
+        <li class="card" data-framework="leaf">
+          <i class="fa fa-leaf"></i>
+        </li>
+        <li class="card" data-framework="bomb">
+          <i class="fa fa-bomb"></i>
+        </li>
+        <li class="card" data-framework="bolt">
+          <i class="fa fa-bolt"></i>
+        </li>
+        <li class="card" data-framework="bicycle">
+          <i class="fa fa-bicycle"></i>
+        </li>
+        <li class="card" data-framework="plane">
+          <i class="fa fa-paper-plane-o"></i>
+        </li>
+        <li class="card" data-framework="cube">
+          <i class="fa fa-cube"></i>
+        </li>
+      </ul>
+      </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

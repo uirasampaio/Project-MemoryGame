@@ -24,12 +24,6 @@ Clone the repo and open index.html
   
 - Style to certain elements
   https://www.cssmatic.com/
-  
-- Stopwatch reference
-  https://github.com/JamieMcGibbon/TechnicalCafe/tree/master/Misc%20Tutorials/Stopwatch%20Tutorial
-  
-- Modal reference
-  https://www.w3schools.com/w3css/w3css_modal.asp
 
 
 ## License

@@ -1,6 +1,6 @@
 # Project-MemoryGame
 
-Simple matching game made for the browsers across multiple devices using HTML5, CSS and JavaScript the focus of the project is in the use of event listeners and other JavaScript functions to give the game its functionality.
+Simple matching game made for the browsers across multiple devices using HTML5, CSS and Vanilla JavaScript the focus of the project is in the use of event listeners and other JavaScript functions to give the game its functionality.
 
 ## Installation
 
